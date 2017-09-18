@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Delicious Cakes | The world Best Cake</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700,700i" rel="stylesheet">
+</head>
+<body>
+<form  name="orderForm">
+     <fieldset>
+     <legend>Buy Your Web Developer Shirt</legend>
+
+          <div class="column">
+               <h4 class="center">Select Gender:</h4>
+               <div class="centerRadio">
+                  Male <input type="radio" name="radioButton" value="gender" class="gendeButtom" class="spaceImg">
+                  Female <input type="radio" name="radioButton" value="gender" class="spaceImg">
+               </div>
+          </div>
+         <div class="column">
+             <img src="./img/code.jpg" alt="male- coder" class="left">
+             <img src="./img/femlaecoder.jpg" alt="female-coder" class="left">
+         </div>
+         <br>
+         <input type="text" placeholder="Fullname" name="fullname" class="text" size="100" id="fullname">
+         <br>
+         <input type="email" placeholder="Email" name="email" class="text" size="100" id="email">
+         <br>
+         <input type="text" placeholder="Address" name="address" class="text" size="100" id="address">
+         <br>
+         <input type="text" name="quantity" id="quantity" placeholder="Enter Quantity" size="15">
+         <div id="total">Total:</div>
+
+         <button type="submit" class="order" id="submit">Place Order</button>
+     </fieldset>
+</form>
+
+
+
+<script src="js/order.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+#myForm {
+    width:60%;
+    margin: 0 auto;
+    padding:10px;
+}
+
+
+.order {
+    background: #e74c3c;
+    color: #fff;
+    padding: 13px;
+    cursor: pointer;
+    width: 250px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    font-size: 1.1em;
+    float: right;
+    clear: right;
+    margin-top: 15px;
+}
+
+.order:hover {
+    background-color:#fff;
+    color:#e74c3c;
+    outline-color:#e74c3c;
+}
+
+.header {
+    font-size:1.7em;
+    color:#e74c3c;
+    text-transform: uppercase;
+}

@@ -1,0 +1,286 @@
+ body {
+     padding:0;
+     margin:0;
+     background-color:#f4f4f4;
+     font: 15px/1.5  'Josefin Sans', sans-serif;
+     position: relative;
+
+ }
+
+  * {
+      margin:0;
+      padding:0;
+      box-sizing: border-box;
+  }
+
+  .button_one {
+       height: 30px;
+      background:#363636;
+      border:0;
+      padding-left:20px;
+      padding-right:20px;
+      color:#fff;
+  }
+
+  .button_one:hover {
+      cursor:pointer;
+  }
+
+
+/*Container*/
+ .container {
+     width:80%;
+     margin: auto;
+     overflow: hidden;
+ }
+
+
+ /* Header*/
+
+ header {
+     background:#363636;
+     color:#fff;
+     padding-top:24px;
+     min-height:50px;
+     border-bottom:#2479b3 3px solid;
+ }
+ 
+ header a {
+     color:#fff;
+     text-decoration: none;
+     font-size:1em;
+ }
+
+ header li {
+     float:left;
+     display: inline;
+     padding:0 20px 0 20px;
+     text-transform: uppercase;
+ }
+
+ header #branding {
+     float:left;
+ }
+
+ header #branding h1 {
+     margin:0;
+ }
+
+ header nav {
+     float:right;
+     margin-top:19px
+ }
+ /*header .hightlight, header .current a {*/
+      /*color:#e8491d;*/
+     /*font-weight:bold;*/
+ /*}*/
+
+ header li:hover {
+     color:#ccc;
+     font-weight:bold;
+     cursor:pointer;
+ }
+ 
+ 
+ 
+ /*showcase*/
+ #showcase {
+      min-height:560px;
+     background: url("../img/backgroundjpg.jpg") no-repeat center center fixed;
+     background-size:cover;
+     text-align: center;
+     color:#fff;
+ }
+
+ #showcase h1 {
+     margin-top:200px;
+     font-size:55px;
+     margin-bottom:10px;
+ }
+
+ #showcase p {
+     font-size:20px;
+ }
+
+ #newsletter {
+     padding:15px;
+     background:#363636;
+ }
+ 
+ #newsletter h1 {
+     float:left;
+     color:#fff;
+     text-transform: capitalize;
+     font-size:1.2em;
+ }
+ 
+ #newsletter form {
+     float: right;
+     margin-top:15px;   /*move down by 15px */
+ }
+
+ #newsletter input[type="email"] {
+     padding:4px;
+     height:24px;
+     width:250px;
+ }
+
+
+ /* Boxes*/
+
+ #boxes {
+     margin-top:60px;
+ }
+
+ #boxes .box {
+     float:left;
+     width:30%;
+     padding:10px;
+     text-align: center;
+     margin-bottom:40px;
+ }
+
+ /*About*/
+ #about {
+     text-align: center;
+     margin-top:200px;
+ }
+
+ #about p {
+     font-size:1.2em;
+     letter-spacing: 2px;
+ }
+
+ #about h2 {
+     text-decoration: underline;
+     font-size:1.7em;
+     margin-bottom:10px;
+ }
+
+ 
+ /*Form */
+input[type="text"], textarea {
+     width:99%;
+     padding:14px;
+     border:1px solid #363636;
+    margin-top:6px;
+    margin-bottom:12px;
+    resize:none;
+
+}
+
+input[type="text"]:focus {
+     background-color:#363636;
+    color:#fff;
+    outline-color:#363636;
+}
+
+input[type="email"]:focus {
+    background-color:#363636;
+    color:#fff;
+    outline-color:#363636;
+}
+ textarea:focus {
+     background-color:#363636;
+     color:#fff;
+     outline-color:#363636;
+ }
+
+input[type="email"] {
+    width: 100%;
+    padding:14px;
+    margin-bottom:12px;
+}
+
+input[type="submit"] {
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    cursor:pointer;
+    border:none;
+    width:100%;
+    padding:17px;
+    margin-top:30px;
+    font-size:1.1em;
+    text-transform: uppercase;
+    background:none;
+}
+
+input[type="submit"]:hover {
+    background-color:#363636;
+    color:#fff;
+}
+
+#subject {
+    height:300px;
+}
+#contact {
+    text-align: center;
+    margin-top:50px;
+}
+
+#contact h3 {
+    margin-bottom:50px;
+    font-size:1.5em;
+}
+
+
+#Project {
+    text-align: center;
+    margin-top:100px;
+}
+
+#Project .project {
+     float:right;
+     width:50%;
+    padding:5px;
+    text-align: center;
+    margin-bottom:40px;
+    margin-top:20px;
+}
+
+#Project h2 {
+    margin-bottom:20px;
+
+}
+
+
+footer {
+    background-color:#363636;
+    color:#fff;
+    padding:10px;
+    margin-top:20px;
+
+}
+footer p {
+    text-align: center;
+}
+
+
+/*Placeholder*/
+
+ ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+     color: lightseagreen;
+     font-size:1.2em;
+ }
+ ::-moz-placeholder { /* Firefox 19+ */
+     color: lightseagreen;
+     font-size:1.2em;
+ }
+ :-ms-input-placeholder { /* IE 10+ */
+     color: lightseagreen;
+     font-size:1.2em;
+ }
+ :-moz-placeholder { /* Firefox 18- */
+     color: lightseagreen;
+     font-size:1.2em;
+ }
+
+
+ #scrollTop {
+     color:#363636;
+     position: absolute;
+     left:95%;
+     bottom:250px;
+     
+ }

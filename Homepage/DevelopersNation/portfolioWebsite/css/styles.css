@@ -1,0 +1,31 @@
+body {
+    padding-top:70px;
+}
+
+
+.jumbotron {
+    color:#2c3e50;
+    font-family: 'Josefin Sans', sans-serif;
+    background: #ecf0f1;
+
+}
+
+.jumbotron.p {
+    font-family: 'Josefin Sans', sans-serif;
+}
+.navbar-inverse {
+
+    background:#2c3e50;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color:#fff;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.navbar-inverse .navbar-brand {
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
